@@ -1,0 +1,26 @@
+.header-wrapper {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: black;
+  border-bottom: 0.8px solid black;
+  a {
+    text-decoration: none;
+  }
+  a:active {
+    color: black;
+  }
+  .logo-app {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .menu-item {
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px;
+  }
+}
